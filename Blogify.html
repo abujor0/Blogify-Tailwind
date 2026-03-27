@@ -6,9 +6,110 @@
     <title>Blogify - Your Personal Blogging Space</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-     <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+<body class="bg-gray-50 text-gray-800">
+
+<header class="border-b bg-white">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-bold text-lg">Blogify</h1>
+    <nav class="space-x-6 text-sm">
+      <a href="#" class="hover:text-blue-600">Blog</a>
+      <a href="#" class="hover:text-blue-600">Projects</a>
+      <a href="#" class="hover:text-blue-600">About</a>
+      <a href="#" class="hover:text-blue-600">Newsletter</a>
+    </nav>
+  </div>
+</header>
+
+
+<main class="max-w-6xl mx-auto px-6 py-10">
+
+  <h2 class="text-xl font-semibold mb-6">Recent blog posts</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+
+
+    <div class="md:col-span-2 bg-white rounded-lg shadow-sm overflow-hidden">
+      <img src="./images/Image.png" class="w-full h-60 object-cover">
+      <div class="p-5">
+        <p class="text-xs text-gray-500 mb-2">Olivia Rhye • 1 Jan 2023</p>
+        <h3 class="font-semibold text-lg mb-2">UX review presentations</h3>
+        <p class="text-sm text-gray-600 mb-3">
+          How do you create compelling presentations that wow your colleagues...
+        </p>
+        <div class="flex gap-2 text-xs">
+          <span class="bg-purple-100 text-purple-600 px-2 py-1 rounded">Design</span>
+          <span class="bg-blue-100 text-blue-600 px-2 py-1 rounded">Research</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="space-y-6">
+
+      <div class="flex gap-4 bg-white p-3 rounded-lg shadow-sm">
+        <img src="./images/left photo 1.png" class="w-60 h-29 object-cover rounded">
+        <div>
+          <p class="text-xs text-gray-500">Phoenix Baker • 1 Jan 2023</p>
+          <h4 class="font-semibold text-sm">Migrating to Linear 101</h4>
+        </div>
+      </div>
+
+      <div class="flex gap-4 bg-white p-3 rounded-lg shadow-sm">
+        <img src="./images/left photo 2.png" class="w-60 h-29 object-cover rounded">
+        <div>
+          <p class="text-xs text-gray-500">Lana Steiner • 1 Jan 2023</p>
+          <h4 class="font-semibold text-sm">Building your API Stack</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <h2 class="text-xl font-semibold mt-12 mb-6">All blog posts</h2>
+
+  <div class="grid md:grid-cols-3 gap-6">
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+      <img src="./images/Image mountain.png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <p class="text-xs text-gray-500">Alec Whitten • 1 Jan 2023</p>
+        <h3 class="font-semibold">Bill Walsh leadership lessons</h3>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+      <img src="./images/Image (1).png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <p class="text-xs text-gray-500">Demi Wilkinson • 1 Jan 2023</p>
+        <h3 class="font-semibold">PM mental models</h3>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+      <img src="./images/Image (2).png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <p class="text-xs text-gray-500">Candice Wu • 1 Jan 2023</p>
+        <h3 class="font-semibold">What is Wireframing?</h3>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+
+<footer class="border-t mt-10">
+  <div class="max-w-6xl mx-auto px-6 py-6 text-sm flex justify-between">
+    <p>© 2026 Blogify</p>
+    <div class="space-x-4">
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+      <a href="#">RSS</a>
+    </div>
+  </div>
+</footer>
+     
 </body>
 </html>
